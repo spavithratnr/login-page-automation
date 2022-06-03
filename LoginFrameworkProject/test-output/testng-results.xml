@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="13" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-29T21:29:47 IST" name="Suite" finished-at="2022-05-29T21:30:58 IST" duration-ms="70890">
+    <groups>
+    </groups>
+    <test started-at="2022-05-29T21:29:47 IST" name="Test" finished-at="2022-05-29T21:30:58 IST" duration-ms="70890">
+      <class name="Tests.LoginFiveTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Tests.LoginFiveTest@57c758ac]" started-at="2022-05-29T21:29:47 IST" name="openBrowser" finished-at="2022-05-29T21:30:00 IST" duration-ms="12845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="getURL(java.lang.String)[pri:0, instance:Tests.LoginFiveTest@57c758ac]" started-at="2022-05-29T21:30:00 IST" name="getURL" finished-at="2022-05-29T21:30:02 IST" depends-on-methods="Tests.LoginFiveTest.openBrowser" duration-ms="2349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method signature="loginWithNoMailIdAndNoPassword(java.lang.String)[pri:0, instance:Tests.LoginFiveTest@57c758ac]" started-at="2022-05-29T21:30:55 IST" name="loginWithNoMailIdAndNoPassword" data-provider="getLoginData" finished-at="2022-05-29T21:30:57 IST" duration-ms="2497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithNoMailIdAndNoPassword -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Tests.LoginFiveTest@57c758ac]" started-at="2022-05-29T21:30:57 IST" name="close" finished-at="2022-05-29T21:30:58 IST" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginFiveTest@57c758ac]" started-at="2022-05-29T21:30:58 IST" name="getResult" finished-at="2022-05-29T21:30:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithNoMailIdAndNoPassword status=SUCCESS method=LoginFiveTest.loginWithNoMailIdAndNoPassword(java.lang.String)[pri:0, instance:Tests.LoginFiveTest@57c758ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Tests.LoginFiveTest -->
+      <class name="Tests.LoginTwoTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Tests.LoginTwoTest@34b7ac2f]" started-at="2022-05-29T21:30:27 IST" name="openBrowser" finished-at="2022-05-29T21:30:30 IST" duration-ms="2381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="getURL(java.lang.String)[pri:0, instance:Tests.LoginTwoTest@34b7ac2f]" started-at="2022-05-29T21:30:30 IST" name="getURL" finished-at="2022-05-29T21:30:37 IST" depends-on-methods="Tests.LoginTwoTest.openBrowser" duration-ms="7654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method signature="loginWithIncorrectEmailAndPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTwoTest@34b7ac2f]" started-at="2022-05-29T21:30:44 IST" name="loginWithIncorrectEmailAndPassword" data-provider="getLoginData" finished-at="2022-05-29T21:30:47 IST" duration-ms="3204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fakemail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fakepassword123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithIncorrectEmailAndPassword -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Tests.LoginTwoTest@34b7ac2f]" started-at="2022-05-29T21:30:47 IST" name="close" finished-at="2022-05-29T21:30:48 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginTwoTest@34b7ac2f]" started-at="2022-05-29T21:30:48 IST" name="getResult" finished-at="2022-05-29T21:30:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithIncorrectEmailAndPassword status=SUCCESS method=LoginTwoTest.loginWithIncorrectEmailAndPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTwoTest@34b7ac2f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Tests.LoginTwoTest -->
+      <class name="Tests.LoginOneTest">
+        <test-method is-config="true" signature="ExtentReport()[pri:0, instance:Tests.LoginOneTest@3e2e18f2]" started-at="2022-05-29T21:29:47 IST" name="ExtentReport" finished-at="2022-05-29T21:29:47 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReport -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Tests.LoginOneTest@3e2e18f2]" started-at="2022-05-29T21:30:09 IST" name="openBrowser" finished-at="2022-05-29T21:30:12 IST" duration-ms="3207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="getURL(java.lang.String)[pri:0, instance:Tests.LoginOneTest@3e2e18f2]" started-at="2022-05-29T21:30:12 IST" name="getURL" finished-at="2022-05-29T21:30:19 IST" depends-on-methods="Tests.LoginOneTest.openBrowser" duration-ms="6289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method signature="loginWithCorrectEmailAndPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginOneTest@3e2e18f2]" started-at="2022-05-29T21:30:37 IST" name="loginWithCorrectEmailAndPassword" data-provider="getLoginData" finished-at="2022-05-29T21:30:42 IST" duration-ms="5034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testseleniumnow@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[first@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectEmailAndPassword -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Tests.LoginOneTest@3e2e18f2]" started-at="2022-05-29T21:30:42 IST" name="close" finished-at="2022-05-29T21:30:44 IST" duration-ms="1662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginOneTest@3e2e18f2]" started-at="2022-05-29T21:30:44 IST" name="getResult" finished-at="2022-05-29T21:30:44 IST" duration-ms="142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithCorrectEmailAndPassword status=SUCCESS method=LoginOneTest.loginWithCorrectEmailAndPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginOneTest@3e2e18f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginOneTest@3e2e18f2]" started-at="2022-05-29T21:31:03 IST" name="tearDown" finished-at="2022-05-29T21:31:03 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.LoginOneTest -->
+      <class name="Tests.LoginThreeTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Tests.LoginThreeTest@19bb07ed]" started-at="2022-05-29T21:30:19 IST" name="openBrowser" finished-at="2022-05-29T21:30:22 IST" duration-ms="3396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="getURL(java.lang.String)[pri:0, instance:Tests.LoginThreeTest@19bb07ed]" started-at="2022-05-29T21:30:22 IST" name="getURL" finished-at="2022-05-29T21:30:27 IST" depends-on-methods="Tests.LoginThreeTest.openBrowser" duration-ms="5288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method signature="loginWithNoMailIdAndPassword(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginThreeTest@19bb07ed]" started-at="2022-05-29T21:30:48 IST" name="loginWithNoMailIdAndPassword" data-provider="getLoginData" finished-at="2022-05-29T21:30:52 IST" duration-ms="3983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[onlypassword123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithNoMailIdAndPassword -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Tests.LoginThreeTest@19bb07ed]" started-at="2022-05-29T21:30:52 IST" name="close" finished-at="2022-05-29T21:30:52 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginThreeTest@19bb07ed]" started-at="2022-05-29T21:30:52 IST" name="getResult" finished-at="2022-05-29T21:30:52 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithNoMailIdAndPassword status=SUCCESS method=LoginThreeTest.loginWithNoMailIdAndPassword(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginThreeTest@19bb07ed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Tests.LoginThreeTest -->
+      <class name="Tests.LoginFourTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Tests.LoginFourTest@2667f029]" started-at="2022-05-29T21:30:02 IST" name="openBrowser" finished-at="2022-05-29T21:30:04 IST" duration-ms="2237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="getURL(java.lang.String)[pri:0, instance:Tests.LoginFourTest@2667f029]" started-at="2022-05-29T21:30:04 IST" name="getURL" finished-at="2022-05-29T21:30:09 IST" depends-on-methods="Tests.LoginFourTest.openBrowser" duration-ms="4679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method signature="loginWithMailIdAndNoPassword(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginFourTest@2667f029]" started-at="2022-05-29T21:30:52 IST" name="loginWithMailIdAndNoPassword" data-provider="getLoginData" finished-at="2022-05-29T21:30:54 IST" duration-ms="2641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[onlyemail@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMailIdAndNoPassword -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Tests.LoginFourTest@2667f029]" started-at="2022-05-29T21:30:54 IST" name="close" finished-at="2022-05-29T21:30:55 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.LoginFourTest@2667f029]" started-at="2022-05-29T21:30:55 IST" name="getResult" finished-at="2022-05-29T21:30:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithMailIdAndNoPassword status=SUCCESS method=LoginFourTest.loginWithMailIdAndNoPassword(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginFourTest@2667f029] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Tests.LoginFourTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
